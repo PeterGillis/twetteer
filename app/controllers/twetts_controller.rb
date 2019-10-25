@@ -4,7 +4,8 @@ class TwettsController < ApplicationController
   # GET /twetts
   # GET /twetts.json
   def index
-    @twetts = Twett.all
+    @twetts = Twett.all.order("created_at DESC")
+    @twett = Twett.new
   end
 
   # GET /twetts/1
@@ -28,7 +29,7 @@ class TwettsController < ApplicationController
 
     respond_to do |format|
       if @twett.save
-        format.html { redirect_to @twett, notice: 'Twett was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Twett was successfully created.' }
         format.json { render :show, status: :created, location: @twett }
       else
         format.html { render :new }
