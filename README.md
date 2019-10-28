@@ -1,5 +1,5 @@
 # README
-'Twetteer'; a clone of some features of Twitter using Ruby on Rails.
+'Twetteer' a clone of some features of Twitter using Ruby on Rails.
 
 Ruby gems used in this build:
 * Better Errors - For better errors
