@@ -1,23 +1,23 @@
 # README
-Twittter - A tutorial of how to clone some features of Twitter using Ruby on Rails.
+'Twetteer'; a clone of some features of Twitter using Ruby on Rails.
 
-Ruby gems used in this build
-Better Errors - For better errors
+Ruby gems used in this build:
+* Better Errors - For better errors
 
-Bulma - for easy CSS. Feel free to roll your own styles and/or use a different framework.
+* Bulma - for easy CSS. Feel free to roll your own styles and/or use a different framework.
 
-Guard - Useful for live reloading our scss, js, css, and erb files, although it's capable of much more!
+* Guard - Useful for live reloading our scss, js, css, and erb files, although it's capable of much more!
 
 Guard is required for the Guard LiveReload gem to work
 
-Guard LiveReload
+* Guard LiveReload
 
-Simple Form - For simple forms!
+* Simple Form - For simple forms!
 
-Devise - Effortless user roles and authentication
+* Devise - Effortless user roles and authentication
 
-Gravatar_image_tag - Integrated image tag which spits out gravatars.
+* Gravatar_image_tag - Integrated image tag which spits out gravatars.
 
 ​
 Inspiration from:
-Twittter - A tutorial of how to clone some features of Twitter using Ruby on Rails https://web-crunch.com
+A tutorial from https://web-crunch.com
